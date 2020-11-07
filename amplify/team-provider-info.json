@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-videolevelstask-dev-141823-authRole",
+      "UnauthRoleArn": "arn:aws:iam::221153322426:role/amplify-videolevelstask-dev-141823-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::221153322426:role/amplify-videolevelstask-dev-141823-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-videolevelstask-dev-141823-deployment",
+      "UnauthRoleName": "amplify-videolevelstask-dev-141823-unauthRole",
+      "StackName": "amplify-videolevelstask-dev-141823",
+      "StackId": "arn:aws:cloudformation:eu-central-1:221153322426:stack/amplify-videolevelstask-dev-141823/62e92380-20f3-11eb-b6d9-0ad1bb830c16",
+      "AmplifyAppId": "d1xvasvqd6m2ga"
+    },
+    "categories": {
+      "auth": {
+        "videolevelstaskf1bd19a8": {}
+      }
+    }
+  }
+}
