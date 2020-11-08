@@ -2,6 +2,1292 @@
 # yarn lockfile v1
 
 
+"@aws-amplify/analytics@^3.3.10":
+  version "3.3.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/analytics/download/@aws-amplify/analytics-3.3.10.tgz#512f24d1e693fc88572eee59f5f9be82203b4931"
+  integrity sha1-US8k0eaT/IhXLu5Z9fm+giA7STE=
+  dependencies:
+    "@aws-amplify/cache" "^3.1.35"
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-sdk/client-firehose" "1.0.0-gamma.8"
+    "@aws-sdk/client-kinesis" "1.0.0-gamma.8"
+    "@aws-sdk/client-personalize-events" "1.0.0-gamma.8"
+    "@aws-sdk/client-pinpoint" "1.0.0-gamma.8"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    lodash "^4.17.20"
+    uuid "^3.2.1"
+
+"@aws-amplify/api-graphql@^1.2.10":
+  version "1.2.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/api-graphql/download/@aws-amplify/api-graphql-1.2.10.tgz#645715d20b7dcd37dd2615ecb443d07c56b2bf2c"
+  integrity sha1-ZFcV0gt9zTfdJhXstEPQfFayvyw=
+  dependencies:
+    "@aws-amplify/api-rest" "^1.2.10"
+    "@aws-amplify/auth" "^3.4.10"
+    "@aws-amplify/cache" "^3.1.35"
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-amplify/pubsub" "^3.2.8"
+    graphql "14.0.0"
+    uuid "^3.2.1"
+    zen-observable-ts "0.8.19"
+
+"@aws-amplify/api-rest@^1.2.10":
+  version "1.2.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/api-rest/download/@aws-amplify/api-rest-1.2.10.tgz#860587890e5e4a99cef2839c6b82923842618cb0"
+  integrity sha1-hgWHiQ5eSpnO8oOca4KSOEJhjLA=
+  dependencies:
+    "@aws-amplify/core" "^3.8.2"
+    axios "0.19.0"
+
+"@aws-amplify/api@^3.2.10":
+  version "3.2.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/api/download/@aws-amplify/api-3.2.10.tgz#45879cd3eb783e8e3e321de58388f9d820c796e7"
+  integrity sha1-RYec0+t4Po4+Mh3lg4j52CDHluc=
+  dependencies:
+    "@aws-amplify/api-graphql" "^1.2.10"
+    "@aws-amplify/api-rest" "^1.2.10"
+
+"@aws-amplify/auth@^3.4.10":
+  version "3.4.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/auth/download/@aws-amplify/auth-3.4.10.tgz#536d53d8f882e4e51829c22f80c12eacca65db5c"
+  integrity sha1-U21T2PiC5OUYKcIvgMEurMpl21w=
+  dependencies:
+    "@aws-amplify/cache" "^3.1.35"
+    "@aws-amplify/core" "^3.8.2"
+    amazon-cognito-identity-js "^4.5.3"
+    crypto-js "^3.3.0"
+
+"@aws-amplify/cache@^3.1.35":
+  version "3.1.35"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/cache/download/@aws-amplify/cache-3.1.35.tgz#3976730fdfff62273df4dbf6b82f58ab64b8f88f"
+  integrity sha1-OXZzD9//Yic99Nv2uC9Yq2S4+I8=
+  dependencies:
+    "@aws-amplify/core" "^3.8.2"
+
+"@aws-amplify/core@^3.8.2":
+  version "3.8.2"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/core/download/@aws-amplify/core-3.8.2.tgz#c8bbe015c539413cb8ed2080925fea225c3963a2"
+  integrity sha1-yLvgFcU5QTy47SCAkl/qIlw5Y6I=
+  dependencies:
+    "@aws-crypto/sha256-js" "1.0.0-alpha.0"
+    "@aws-sdk/client-cognito-identity" "1.0.0-gamma.8"
+    "@aws-sdk/credential-provider-cognito-identity" "1.0.0-gamma.8"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-hex-encoding" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    universal-cookie "^4.0.4"
+    url "^0.11.0"
+    zen-observable-ts "0.8.19"
+
+"@aws-amplify/datastore@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/datastore/download/@aws-amplify/datastore-2.7.2.tgz#a975185e3c216843a5dd75ad81a990fefa415a0a"
+  integrity sha1-qXUYXjwhaEOl3XWtgamQ/vpBWgo=
+  dependencies:
+    "@aws-amplify/api" "^3.2.10"
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-amplify/pubsub" "^3.2.8"
+    idb "5.0.6"
+    immer "6.0.1"
+    ulid "2.3.0"
+    uuid "3.3.2"
+    zen-observable-ts "0.8.19"
+    zen-push "0.2.1"
+
+"@aws-amplify/interactions@^3.3.10":
+  version "3.3.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/interactions/download/@aws-amplify/interactions-3.3.10.tgz#2d97db6cf4f0660e18cf43c02c7d18687412e0cf"
+  integrity sha1-LZfbbPTwZg4Yz0PALH0YaHQS4M8=
+  dependencies:
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-sdk/client-lex-runtime-service" "1.0.0-gamma.8"
+
+"@aws-amplify/predictions@^3.2.10":
+  version "3.2.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/predictions/download/@aws-amplify/predictions-3.2.10.tgz#8cfe470b29359a7dca157f0af8abc966ddcee2f5"
+  integrity sha1-jP5HCyk1mn3KFX8K+KvJZt3O4vU=
+  dependencies:
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-amplify/storage" "^3.3.10"
+    "@aws-sdk/client-comprehend" "1.0.0-gamma.8"
+    "@aws-sdk/client-polly" "1.0.0-gamma.8"
+    "@aws-sdk/client-rekognition" "1.0.0-gamma.8"
+    "@aws-sdk/client-textract" "1.0.0-gamma.8"
+    "@aws-sdk/client-translate" "1.0.0-gamma.8"
+    "@aws-sdk/eventstream-marshaller" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    uuid "^3.2.1"
+
+"@aws-amplify/pubsub@^3.2.8":
+  version "3.2.8"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/pubsub/download/@aws-amplify/pubsub-3.2.8.tgz#85b4c77265c499c58539b5b875d7e3402577eb18"
+  integrity sha1-hbTHcmXEmcWFObW4ddfjQCV36xg=
+  dependencies:
+    "@aws-amplify/auth" "^3.4.10"
+    "@aws-amplify/cache" "^3.1.35"
+    "@aws-amplify/core" "^3.8.2"
+    graphql "14.0.0"
+    paho-mqtt "^1.1.0"
+    uuid "^3.2.1"
+    zen-observable-ts "0.8.19"
+
+"@aws-amplify/storage@^3.3.10":
+  version "3.3.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/storage/download/@aws-amplify/storage-3.3.10.tgz#093941e02a10f6f7040fae9bcbac8e6d62d4c866"
+  integrity sha1-CTlB4CoQ9vcED66by6yObWLUyGY=
+  dependencies:
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-sdk/client-s3" "1.0.0-gamma.8"
+    "@aws-sdk/s3-request-presigner" "1.0.0-gamma.7"
+    "@aws-sdk/util-create-request" "1.0.0-gamma.7"
+    "@aws-sdk/util-format-url" "1.0.0-gamma.7"
+    axios "0.19.0"
+    events "^3.1.0"
+    sinon "^7.5.0"
+
+"@aws-amplify/ui-components@^0.9.2":
+  version "0.9.2"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/ui-components/download/@aws-amplify/ui-components-0.9.2.tgz#ed37c2ae3c47262fc51378967d8893218bf6be0b"
+  integrity sha1-7TfCrjxHJi/FE3iWfYiTIYv2vgs=
+  dependencies:
+    "@aws-amplify/auth" "^3.4.10"
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-amplify/interactions" "^3.3.10"
+    "@aws-amplify/storage" "^3.3.10"
+    "@aws-amplify/xr" "^2.2.10"
+    qrcode "^1.4.4"
+    uuid "^8.2.0"
+
+"@aws-amplify/ui-react@^0.2.27":
+  version "0.2.27"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/ui-react/download/@aws-amplify/ui-react-0.2.27.tgz#278808318be759f3a5ed49935107dde783403c6e"
+  integrity sha1-J4gIMYvnWfOl7UmTUQfd54NAPG4=
+  dependencies:
+    "@aws-amplify/ui-components" "^0.9.2"
+
+"@aws-amplify/ui@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/ui/download/@aws-amplify/ui-2.0.2.tgz#56bfc3674454f2a12d1cec247f38a444aa13ea09"
+  integrity sha1-Vr/DZ0RU8qEtHOwkfzikRKoT6gk=
+
+"@aws-amplify/xr@^2.2.10":
+  version "2.2.10"
+  resolved "https://registry.npm.taobao.org/@aws-amplify/xr/download/@aws-amplify/xr-2.2.10.tgz#7d0db653113476e848b50acc984f6e9a31901155"
+  integrity sha1-fQ22UxE0duhItQrMmE9umjGQEVU=
+  dependencies:
+    "@aws-amplify/core" "^3.8.2"
+
+"@aws-crypto/crc32@^1.0.0-alpha.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/@aws-crypto/crc32/download/@aws-crypto/crc32-1.0.0.tgz#6a0164fd92bb365860ba6afb5dfef449701eb8ca"
+  integrity sha1-agFk/ZK7Nlhgumr7Xf70SXAeuMo=
+  dependencies:
+    tslib "^1.11.1"
+
+"@aws-crypto/ie11-detection@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/@aws-crypto/ie11-detection/download/@aws-crypto/ie11-detection-1.0.0.tgz#d3a6af29ba7f15458f79c41d1cd8cac3925e726a"
+  integrity sha1-06avKbp/FUWPecQdHNjKw5Jecmo=
+  dependencies:
+    tslib "^1.11.1"
+
+"@aws-crypto/sha256-browser@^1.0.0-alpha.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/@aws-crypto/sha256-browser/download/@aws-crypto/sha256-browser-1.0.0.tgz#9c34d3b829d922b2c8e077b30a60db53d6befcb1"
+  integrity sha1-nDTTuCnZIrLI4HezCmDbU9a+/LE=
+  dependencies:
+    "@aws-crypto/ie11-detection" "^1.0.0"
+    "@aws-crypto/sha256-js" "^1.0.0"
+    "@aws-crypto/supports-web-crypto" "^1.0.0"
+    "@aws-sdk/types" "^1.0.0-rc.1"
+    "@aws-sdk/util-locate-window" "^1.0.0-rc.1"
+    "@aws-sdk/util-utf8-browser" "^1.0.0-rc.1"
+    tslib "^1.11.1"
+
+"@aws-crypto/sha256-js@1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://registry.npm.taobao.org/@aws-crypto/sha256-js/download/@aws-crypto/sha256-js-1.0.0-alpha.0.tgz#1146f6fa823001a9065ce60db5bf1afcc7c1cc3a"
+  integrity sha1-EUb2+oIwAakGXOYNtb8a/MfBzDo=
+  dependencies:
+    "@aws-sdk/types" "^1.0.0-alpha.0"
+    "@aws-sdk/util-utf8-browser" "^1.0.0-alpha.0"
+    tslib "^1.9.3"
+
+"@aws-crypto/sha256-js@^1.0.0", "@aws-crypto/sha256-js@^1.0.0-alpha.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/@aws-crypto/sha256-js/download/@aws-crypto/sha256-js-1.0.0.tgz#ca788a3242a4024c386e6b9985da28f290a79ad7"
+  integrity sha1-yniKMkKkAkw4bmuZhdoo8pCnmtc=
+  dependencies:
+    "@aws-sdk/types" "^1.0.0-rc.1"
+    "@aws-sdk/util-utf8-browser" "^1.0.0-rc.1"
+    tslib "^1.11.1"
+
+"@aws-crypto/supports-web-crypto@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/@aws-crypto/supports-web-crypto/download/@aws-crypto/supports-web-crypto-1.0.0.tgz#c40901bc17ac1e875e248df16a2b47ad8bfd9a93"
+  integrity sha1-xAkBvBesHodeJI3xaitHrYv9mpM=
+  dependencies:
+    tslib "^1.11.1"
+
+"@aws-sdk/abort-controller@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/abort-controller/download/@aws-sdk/abort-controller-1.0.0-gamma.7.tgz#0fbef3b4c705a998bd6945193d81add898602334"
+  integrity sha1-D77ztMcFqZi9aUUZPYGt2JhgIzQ=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/chunked-blob-reader-native@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/chunked-blob-reader-native/download/@aws-sdk/chunked-blob-reader-native-1.0.0-gamma.6.tgz#8ad99b46b8688da06770c1c4e0222048d07ef6b1"
+  integrity sha1-itmbRrhojaBncMHE4CIgSNB+9rE=
+  dependencies:
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/chunked-blob-reader@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/chunked-blob-reader/download/@aws-sdk/chunked-blob-reader-1.0.0-gamma.6.tgz#e3d1a07ae0b390e625df59793955cc3666088802"
+  integrity sha1-49GgeuCzkOYl31l5OVXMNmYIiAI=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/client-cognito-identity@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-cognito-identity/download/@aws-sdk/client-cognito-identity-1.0.0-gamma.8.tgz#d2992320d4719eae06ede9804ec3baf3f17af4e8"
+  integrity sha1-0pkjINRxnq4G7emATsO68/F69Og=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-comprehend@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-comprehend/download/@aws-sdk/client-comprehend-1.0.0-gamma.8.tgz#05bd9b13854a1aeeecce0b0a84bd32805086477f"
+  integrity sha1-Bb2bE4VKGu7szgsKhL0ygFCGR38=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+    uuid "^3.0.0"
+
+"@aws-sdk/client-firehose@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-firehose/download/@aws-sdk/client-firehose-1.0.0-gamma.8.tgz#5d6f6477106b0a69b3acadfb319f5b472592b369"
+  integrity sha1-XW9kdxBrCmmzrK37MZ9bRyWSs2k=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-kinesis@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-kinesis/download/@aws-sdk/client-kinesis-1.0.0-gamma.8.tgz#3b43c597e0c3c3a263aae4e775f6b01631d83551"
+  integrity sha1-O0PFl+DDw6JjquTndfawFjHYNVE=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/eventstream-serde-browser" "1.0.0-gamma.7"
+    "@aws-sdk/eventstream-serde-config-resolver" "1.0.0-gamma.6"
+    "@aws-sdk/eventstream-serde-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-lex-runtime-service@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-lex-runtime-service/download/@aws-sdk/client-lex-runtime-service-1.0.0-gamma.8.tgz#ff78b584be5bcea7dfe7b20d2382d7eac495d40c"
+  integrity sha1-/3i1hL5bzqff57INI4LX6sSV1Aw=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-personalize-events@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-personalize-events/download/@aws-sdk/client-personalize-events-1.0.0-gamma.8.tgz#8ec8120b53ff468fbdcb45552c4260c5feac91eb"
+  integrity sha1-jsgSC1P/Ro+9y0VVLEJgxf6skes=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-pinpoint@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-pinpoint/download/@aws-sdk/client-pinpoint-1.0.0-gamma.8.tgz#8b5f9042642dcf9dbbb8922da430db401478194d"
+  integrity sha1-i1+QQmQtz527uJItpDDbQBR4GU0=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-polly@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-polly/download/@aws-sdk/client-polly-1.0.0-gamma.8.tgz#974cf85b531d417f43074039688c69be8d0d1850"
+  integrity sha1-l0z4W1MdQX9DB0A5aIxpvo0NGFA=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-rekognition@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-rekognition/download/@aws-sdk/client-rekognition-1.0.0-gamma.8.tgz#76f947ff7f3f7048066a230bcd033c9ad9e7ca8d"
+  integrity sha1-dvlH/38/cEgGaiMLzQM8mtnnyo0=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-s3@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-s3/download/@aws-sdk/client-s3-1.0.0-gamma.8.tgz#d853f3bdeeab4bc953c0645b241c8ca0b2138973"
+  integrity sha1-2FPzve6rS8lTwGRbJByMoLITiXM=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/eventstream-serde-browser" "1.0.0-gamma.7"
+    "@aws-sdk/eventstream-serde-config-resolver" "1.0.0-gamma.6"
+    "@aws-sdk/eventstream-serde-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-blob-browser" "1.0.0-gamma.7"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/hash-stream-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/md5-js" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-apply-body-checksum" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-bucket-endpoint" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-expect-continue" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-location-constraint" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-sdk-s3" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-ssec" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    "@aws-sdk/xml-builder" "1.0.0-gamma.6"
+    fast-xml-parser "^3.16.0"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-textract@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-textract/download/@aws-sdk/client-textract-1.0.0-gamma.8.tgz#58a4810baf080499bb46352835a9c9ddbe23eddd"
+  integrity sha1-WKSBC68IBJm7RjUoNanJ3b4j7d0=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+
+"@aws-sdk/client-translate@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/client-translate/download/@aws-sdk/client-translate-1.0.0-gamma.8.tgz#6d6f747c3c2cfd3c46485b625d6b53a8d4051fa7"
+  integrity sha1-bW90fDws/TxGSFtiXWtTqNQFH6c=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-node" "1.0.0-gamma.7"
+    "@aws-sdk/fetch-http-handler" "1.0.0-gamma.8"
+    "@aws-sdk/hash-node" "1.0.0-gamma.7"
+    "@aws-sdk/invalid-dependency" "1.0.0-gamma.5"
+    "@aws-sdk/middleware-content-length" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-host-header" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-logger" "1.0.0-gamma.1"
+    "@aws-sdk/middleware-retry" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-serde" "1.0.0-gamma.6"
+    "@aws-sdk/middleware-signing" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/middleware-user-agent" "1.0.0-gamma.7"
+    "@aws-sdk/node-config-provider" "1.0.0-gamma.2"
+    "@aws-sdk/node-http-handler" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/url-parser-browser" "1.0.0-gamma.7"
+    "@aws-sdk/url-parser-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-body-length-node" "1.0.0-gamma.6"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-gamma.7"
+    "@aws-sdk/util-user-agent-node" "1.0.0-gamma.7"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-node" "1.0.0-gamma.6"
+    tslib "^2.0.0"
+    uuid "^3.0.0"
+
+"@aws-sdk/config-resolver@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/config-resolver/download/@aws-sdk/config-resolver-1.0.0-gamma.7.tgz#c76950c3ad78081888811572d57b29f4bfd7ecc5"
+  integrity sha1-x2lQw614CBiIgRVy1Xsp9L/X7MU=
+  dependencies:
+    "@aws-sdk/signature-v4" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-cognito-identity@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/credential-provider-cognito-identity/download/@aws-sdk/credential-provider-cognito-identity-1.0.0-gamma.8.tgz#9b0411aec3ab6f8a411b4d11f5231f566acfecae"
+  integrity sha1-mwQRrsOrb4pBG00R9SMfVmrP7K4=
+  dependencies:
+    "@aws-sdk/client-cognito-identity" "1.0.0-gamma.8"
+    "@aws-sdk/property-provider" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-env@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/credential-provider-env/download/@aws-sdk/credential-provider-env-1.0.0-gamma.7.tgz#9b66cbd2f7ada9691279a36f5117af90c9692354"
+  integrity sha1-m2bL0vetqWkSeaNvURevkMlpI1Q=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-imds@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/credential-provider-imds/download/@aws-sdk/credential-provider-imds-1.0.0-gamma.7.tgz#9088ff460027eca1a65af589bcb363f079cf44ce"
+  integrity sha1-kIj/RgAn7KGmWvWJvLNj8HnPRM4=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-ini@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/credential-provider-ini/download/@aws-sdk/credential-provider-ini-1.0.0-gamma.7.tgz#c6725ac948801eba69d64ef310971ece6b4ffd45"
+  integrity sha1-xnJayUiAHrpp1k7zEJcezmtP/UU=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-gamma.7"
+    "@aws-sdk/shared-ini-file-loader" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-node@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/credential-provider-node/download/@aws-sdk/credential-provider-node-1.0.0-gamma.7.tgz#65160a8be2e05548d13a27aa66083b02578a5a39"
+  integrity sha1-ZRYKi+LgVUjROieqZgg7AleKWjk=
+  dependencies:
+    "@aws-sdk/credential-provider-env" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-imds" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-ini" "1.0.0-gamma.7"
+    "@aws-sdk/credential-provider-process" "1.0.0-gamma.7"
+    "@aws-sdk/property-provider" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-process@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/credential-provider-process/download/@aws-sdk/credential-provider-process-1.0.0-gamma.7.tgz#247c31e79a841c1fa1bdf17b24c53217d23a4329"
+  integrity sha1-JHwx55qEHB+hvfF7JMUyF9I6Qyk=
+  dependencies:
+    "@aws-sdk/credential-provider-ini" "1.0.0-gamma.7"
+    "@aws-sdk/property-provider" "1.0.0-gamma.7"
+    "@aws-sdk/shared-ini-file-loader" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-marshaller@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/eventstream-marshaller/download/@aws-sdk/eventstream-marshaller-1.0.0-gamma.7.tgz#e2af9679336c3392a188bc369bb58c1389bd5822"
+  integrity sha1-4q+WeTNsM5KhiLw2m7WME4m9WCI=
+  dependencies:
+    "@aws-crypto/crc32" "^1.0.0-alpha.0"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-hex-encoding" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-serde-browser@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/eventstream-serde-browser/download/@aws-sdk/eventstream-serde-browser-1.0.0-gamma.7.tgz#c251ea7e88046298f64bdb0689f09e6e4e3ac533"
+  integrity sha1-wlHqfogEYpj2S9sGifCebk46xTM=
+  dependencies:
+    "@aws-sdk/eventstream-marshaller" "1.0.0-gamma.7"
+    "@aws-sdk/eventstream-serde-universal" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-serde-config-resolver@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/eventstream-serde-config-resolver/download/@aws-sdk/eventstream-serde-config-resolver-1.0.0-gamma.6.tgz#e6d964cb78d94d7a5d36f8ac2d7828dd5c534a07"
+  integrity sha1-5tlky3jZTXpdNvisLXgo3VxTSgc=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-serde-node@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/eventstream-serde-node/download/@aws-sdk/eventstream-serde-node-1.0.0-gamma.7.tgz#128aa322d8064fc2eaf02f35c01a1e09d5a318ce"
+  integrity sha1-EoqjItgGT8Lq8C81wBoeCdWjGM4=
+  dependencies:
+    "@aws-sdk/eventstream-marshaller" "1.0.0-gamma.7"
+    "@aws-sdk/eventstream-serde-universal" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-serde-universal@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/eventstream-serde-universal/download/@aws-sdk/eventstream-serde-universal-1.0.0-gamma.6.tgz#68e54f22a3da822fcfe254d58f394f803b24555b"
+  integrity sha1-aOVPIqPagi/P4lTVjzlPgDskVVs=
+  dependencies:
+    "@aws-sdk/eventstream-marshaller" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/fetch-http-handler@1.0.0-gamma.8":
+  version "1.0.0-gamma.8"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/fetch-http-handler/download/@aws-sdk/fetch-http-handler-1.0.0-gamma.8.tgz#cbaa389f28c556ad451984cd79a4e426957a56ec"
+  integrity sha1-y6o4nyjFVq1FGYTNeaTkJpV6Vuw=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/querystring-builder" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-base64-browser" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/hash-blob-browser@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/hash-blob-browser/download/@aws-sdk/hash-blob-browser-1.0.0-gamma.7.tgz#af96208803c98f3d5a058352affb5b717e027aa5"
+  integrity sha1-r5YgiAPJjz1aBYNSr/tbcX4CeqU=
+  dependencies:
+    "@aws-sdk/chunked-blob-reader" "1.0.0-gamma.6"
+    "@aws-sdk/chunked-blob-reader-native" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/hash-node@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/hash-node/download/@aws-sdk/hash-node-1.0.0-gamma.7.tgz#e306406798de01dc1143ddd41d0151ca625ee2e3"
+  integrity sha1-4wZAZ5jeAdwRQ93UHQFRymJe4uM=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-buffer-from" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/hash-stream-node@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/hash-stream-node/download/@aws-sdk/hash-stream-node-1.0.0-gamma.7.tgz#8ec8a86f26c6de66ac2353067558279d6b0f9c9d"
+  integrity sha1-jsiobybG3masI1MGdVgnnWsPnJ0=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/invalid-dependency@1.0.0-gamma.5":
+  version "1.0.0-gamma.5"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/invalid-dependency/download/@aws-sdk/invalid-dependency-1.0.0-gamma.5.tgz#07d6a74167b2110ebcdac2f802f22f4255d8ed81"
+  integrity sha1-B9anQWeyEQ682sL4AvIvQlXY7YE=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/is-array-buffer@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/is-array-buffer/download/@aws-sdk/is-array-buffer-1.0.0-gamma.6.tgz#07e994d6661504246dedd9fc5015c89fe63b8b10"
+  integrity sha1-B+mU1mYVBCRt7dn8UBXIn+Y7ixA=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/md5-js@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/md5-js/download/@aws-sdk/md5-js-1.0.0-gamma.7.tgz#609acf9da836f6a2e75b1e21cb657f83dc6f810b"
+  integrity sha1-YJrPnag29qLnWx4hy2V/g9xvgQs=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-utf8-browser" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-apply-body-checksum@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-apply-body-checksum/download/@aws-sdk/middleware-apply-body-checksum-1.0.0-gamma.7.tgz#409769ef95bfebfa6a9925d6b1b5ca012606ca0e"
+  integrity sha1-QJdp75W/6/pqmSXWsbXKASYGyg4=
+  dependencies:
+    "@aws-sdk/is-array-buffer" "1.0.0-gamma.6"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-bucket-endpoint@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-bucket-endpoint/download/@aws-sdk/middleware-bucket-endpoint-1.0.0-gamma.7.tgz#3a271b86f4951d04094a1deacac12b3ae0fbef2a"
+  integrity sha1-OicbhvSVHQQJSh3qysErOuD77yo=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-arn-parser" "1.0.0-gamma.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-content-length@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-content-length/download/@aws-sdk/middleware-content-length-1.0.0-gamma.7.tgz#7b8842927d2b3a09bace34a6a491ad3a88e0a25d"
+  integrity sha1-e4hCkn0rOgm6zjSmpJGtOojgol0=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-expect-continue@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-expect-continue/download/@aws-sdk/middleware-expect-continue-1.0.0-gamma.7.tgz#347a8e89f6e4f7525af98546d9f654198b4c7b3d"
+  integrity sha1-NHqOifbk91Ja+YVG2fZUGYtMez0=
+  dependencies:
+    "@aws-sdk/middleware-header-default" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-header-default@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-header-default/download/@aws-sdk/middleware-header-default-1.0.0-gamma.7.tgz#d977445da36eba5df768806a85834e31fb189ce3"
+  integrity sha1-2XdEXaNuul33aIBqhYNOMfsYnOM=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-host-header@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-host-header/download/@aws-sdk/middleware-host-header-1.0.0-gamma.7.tgz#14da157c65543cf644d6df54a636437abc3787b4"
+  integrity sha1-FNoVfGVUPPZE1t9UpjZDerw3h7Q=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-location-constraint@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-location-constraint/download/@aws-sdk/middleware-location-constraint-1.0.0-gamma.7.tgz#902b380d741d7382a8076fd34342039b24e8b00c"
+  integrity sha1-kCs4DXQdc4KoB2/TQ0IDmyTosAw=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-logger@1.0.0-gamma.1":
+  version "1.0.0-gamma.1"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-logger/download/@aws-sdk/middleware-logger-1.0.0-gamma.1.tgz#d4915e924b9cfb858ce89ced51ffd8be457af7f5"
+  integrity sha1-1JFekkuc+4WM6JztUf/YvkV69/U=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-retry@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-retry/download/@aws-sdk/middleware-retry-1.0.0-gamma.7.tgz#4b548d16fb0f98df7538d47678ad4b70fa3439a6"
+  integrity sha1-S1SNFvsPmN91ONR2eK1LcPo0OaY=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/service-error-classification" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    react-native-get-random-values "^1.4.0"
+    tslib "^1.8.0"
+    uuid "^3.0.0"
+
+"@aws-sdk/middleware-sdk-s3@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-sdk-s3/download/@aws-sdk/middleware-sdk-s3-1.0.0-gamma.7.tgz#315f84565be9f134d71553eaf371aa64d7da7c80"
+  integrity sha1-MV+EVlvp8TTXFVPq83GqZNfafIA=
+  dependencies:
+    "@aws-sdk/util-arn-parser" "1.0.0-gamma.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-serde@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-serde/download/@aws-sdk/middleware-serde-1.0.0-gamma.6.tgz#9a35eadc41814daccb956448fb70cc96065afb91"
+  integrity sha1-mjXq3EGBTazLlWRI+3DMlgZa+5E=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-signing@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-signing/download/@aws-sdk/middleware-signing-1.0.0-gamma.7.tgz#44591018d160c89031b6ab26131b513c89feff36"
+  integrity sha1-RFkQGNFgyJAxtqsmExtRPIn+/zY=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/signature-v4" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-ssec@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-ssec/download/@aws-sdk/middleware-ssec-1.0.0-gamma.7.tgz#93ae363ebd0de10da0b594ad5e420470de528b1c"
+  integrity sha1-k642Pr0N4Q2gtZStXkIEcN5Sixw=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-stack@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-stack/download/@aws-sdk/middleware-stack-1.0.0-gamma.7.tgz#921359bc2cbd3ee318aee92e3ac807e113816130"
+  integrity sha1-khNZvCy9PuMYrukuOsgH4ROBYTA=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-user-agent@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/middleware-user-agent/download/@aws-sdk/middleware-user-agent-1.0.0-gamma.7.tgz#f869af84ddcc29dce643d8af54405c45dd90c2c7"
+  integrity sha1-+GmvhN3MKdzmQ9ivVEBcRd2Qwsc=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/node-config-provider@1.0.0-gamma.2":
+  version "1.0.0-gamma.2"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/node-config-provider/download/@aws-sdk/node-config-provider-1.0.0-gamma.2.tgz#9da3a90cd39f61e5250fbfbcba9ec1f6b032687b"
+  integrity sha1-naOpDNOfYeUlD7+8up7B9rAyaHs=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-gamma.7"
+    "@aws-sdk/shared-ini-file-loader" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/node-http-handler@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/node-http-handler/download/@aws-sdk/node-http-handler-1.0.0-gamma.7.tgz#82a8be63d02c5dc7be48e57cb21d8f19984763e3"
+  integrity sha1-gqi+Y9AsXce+SOV8sh2PGZhHY+M=
+  dependencies:
+    "@aws-sdk/abort-controller" "1.0.0-gamma.7"
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/querystring-builder" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/property-provider@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/property-provider/download/@aws-sdk/property-provider-1.0.0-gamma.7.tgz#ab81f5b572c0b04df5a63116e9329979413cc95c"
+  integrity sha1-q4H1tXLAsE31pjEW6TKZeUE8yVw=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/protocol-http@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/protocol-http/download/@aws-sdk/protocol-http-1.0.0-gamma.7.tgz#0cd4a40347e929d38b15ee517a4595cc9a64da3d"
+  integrity sha1-DNSkA0fpKdOLFe5RekWVzJpk2j0=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/querystring-builder@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/querystring-builder/download/@aws-sdk/querystring-builder-1.0.0-gamma.7.tgz#f3d0208ff57b24f081ff75d5a643f3d02518920c"
+  integrity sha1-89Agj/V7JPCB/3XVpkPz0CUYkgw=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-uri-escape" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/querystring-parser@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/querystring-parser/download/@aws-sdk/querystring-parser-1.0.0-gamma.7.tgz#7b3ed3eb5ae2be9c13c42717ff2f5c216377ae9a"
+  integrity sha1-ez7T61rivpwTxCcX/y9cIWN3rpo=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/s3-request-presigner@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/s3-request-presigner/download/@aws-sdk/s3-request-presigner-1.0.0-gamma.7.tgz#8e989c6b6eda2426ba588d070f368e4fe7c6ad5b"
+  integrity sha1-jpica27aJCa6WI0HDzaOT+fGrVs=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-gamma.7"
+    "@aws-sdk/signature-v4" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-create-request" "1.0.0-gamma.7"
+    "@aws-sdk/util-format-url" "1.0.0-gamma.7"
+    tslib "^1.8.0"
+
+"@aws-sdk/service-error-classification@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/service-error-classification/download/@aws-sdk/service-error-classification-1.0.0-gamma.7.tgz#710f3acd1f87fda9d1caeb07559d50f8b82f071b"
+  integrity sha1-cQ86zR+H/anRyusHVZ1Q+LgvBxs=
+
+"@aws-sdk/shared-ini-file-loader@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/shared-ini-file-loader/download/@aws-sdk/shared-ini-file-loader-1.0.0-gamma.6.tgz#cd79c8a54b0f6d9f70ad709ae9e7619801a3b7f4"
+  integrity sha1-zXnIpUsPbZ9wrXCa6edhmAGjt/Q=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/signature-v4@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/signature-v4/download/@aws-sdk/signature-v4-1.0.0-gamma.7.tgz#030c1cb47e2b59862363ce1bee1901fd37bcaaf5"
+  integrity sha1-AwwctH4rWYYjY84b7hkB/Te8qvU=
+  dependencies:
+    "@aws-sdk/is-array-buffer" "1.0.0-gamma.6"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    "@aws-sdk/util-hex-encoding" "1.0.0-gamma.6"
+    "@aws-sdk/util-uri-escape" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/smithy-client@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/smithy-client/download/@aws-sdk/smithy-client-1.0.0-gamma.7.tgz#20e602b15e2617d439bfd8f1b4cb17137f27561f"
+  integrity sha1-IOYCsV4mF9Q5v9jxtMsXE38nVh8=
+  dependencies:
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/types@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/types/download/@aws-sdk/types-1.0.0-gamma.6.tgz#ec2bbf8abe05632a1fb2468dbd76096691dcfb89"
+  integrity sha1-7Cu/ir4FYyofskaNvXYJZpHc+4k=
+
+"@aws-sdk/types@^1.0.0-alpha.0", "@aws-sdk/types@^1.0.0-rc.1":
+  version "1.0.0-rc.3"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/types/download/@aws-sdk/types-1.0.0-rc.3.tgz#98466080e07244d8f7406cc61ae7918d02b339a2"
+  integrity sha1-mEZggOByRNj3QGzGGueRjQKzOaI=
+
+"@aws-sdk/url-parser-browser@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/url-parser-browser/download/@aws-sdk/url-parser-browser-1.0.0-gamma.7.tgz#aceaebd2b267b6251ff965fb51fc760a2785bae0"
+  integrity sha1-rOrr0rJntiUf+WX7Ufx2CieFuuA=
+  dependencies:
+    "@aws-sdk/querystring-parser" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/url-parser-node@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/url-parser-node/download/@aws-sdk/url-parser-node-1.0.0-gamma.7.tgz#306061415401e99a502f044fd863261cdfe57a5b"
+  integrity sha1-MGBhQVQB6ZpQLwRP2GMmHN/lels=
+  dependencies:
+    "@aws-sdk/querystring-parser" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+    url "^0.11.0"
+
+"@aws-sdk/util-arn-parser@1.0.0-gamma.3":
+  version "1.0.0-gamma.3"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-arn-parser/download/@aws-sdk/util-arn-parser-1.0.0-gamma.3.tgz#5e0dc6c90de407346e8413456c714b107e539de1"
+  integrity sha1-Xg3GyQ3kBzRuhBNFbHFLEH5TneE=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-base64-browser@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-base64-browser/download/@aws-sdk/util-base64-browser-1.0.0-gamma.6.tgz#43d538f717606eb355103e737107f4ac2273e857"
+  integrity sha1-Q9U49xdgbrNVED5zcQf0rCJz6Fc=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-base64-node@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-base64-node/download/@aws-sdk/util-base64-node-1.0.0-gamma.6.tgz#077c60fc074914221b0629e3a4c3d9c610122df1"
+  integrity sha1-B3xg/AdJFCIbBinjpMPZxhASLfE=
+  dependencies:
+    "@aws-sdk/util-buffer-from" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-body-length-browser@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-body-length-browser/download/@aws-sdk/util-body-length-browser-1.0.0-gamma.6.tgz#1af1876ff3769b7625bca34f359e66ecfb26c6df"
+  integrity sha1-GvGHb/N2m3YlvKNPNZ5m7Psmxt8=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-body-length-node@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-body-length-node/download/@aws-sdk/util-body-length-node-1.0.0-gamma.6.tgz#9106cddef1e19055649cc055608423f75fb516ac"
+  integrity sha1-kQbN3vHhkFVknMBVYIQj91+1Fqw=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-buffer-from@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-buffer-from/download/@aws-sdk/util-buffer-from-1.0.0-gamma.6.tgz#bc2bd1d4ab217975c1872cc5e7f23b3250d89d73"
+  integrity sha1-vCvR1KsheXXBhyzF5/I7MlDYnXM=
+  dependencies:
+    "@aws-sdk/is-array-buffer" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-create-request@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-create-request/download/@aws-sdk/util-create-request-1.0.0-gamma.7.tgz#4f6e1384661c0ee5b103bb024015e882c00d7ebe"
+  integrity sha1-T24ThGYcDuWxA7sCQBXogsANfr4=
+  dependencies:
+    "@aws-sdk/middleware-stack" "1.0.0-gamma.7"
+    "@aws-sdk/smithy-client" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-format-url@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-format-url/download/@aws-sdk/util-format-url-1.0.0-gamma.7.tgz#72ff6a20237ad8d252607a138d9585eefeb6f242"
+  integrity sha1-cv9qICN62NJSYHoTjZWF7v628kI=
+  dependencies:
+    "@aws-sdk/querystring-builder" "1.0.0-gamma.7"
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-hex-encoding@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-hex-encoding/download/@aws-sdk/util-hex-encoding-1.0.0-gamma.6.tgz#adc3931069ba538e415fff4e860d670a417e1ea7"
+  integrity sha1-rcOTEGm6U45BX/9Ohg1nCkF+Hqc=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-locate-window@^1.0.0-rc.1":
+  version "1.0.0-rc.3"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-locate-window/download/@aws-sdk/util-locate-window-1.0.0-rc.3.tgz#0b0442cf620aa677a05c57fe58238a52181dbb9a"
+  integrity sha1-CwRCz2IKpnegXFf+WCOKUhgdu5o=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-uri-escape@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-uri-escape/download/@aws-sdk/util-uri-escape-1.0.0-gamma.6.tgz#27e5576a087a96482880527621a0dc5065d26af9"
+  integrity sha1-J+VXagh6lkgogFJ2IaDcUGXSavk=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-user-agent-browser@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-user-agent-browser/download/@aws-sdk/util-user-agent-browser-1.0.0-gamma.7.tgz#c775b28cf347c81f23de0729f28c70bdfbfdabea"
+  integrity sha1-x3WyjPNHyB8j3gcp8oxwvfv9q+o=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-user-agent-node@1.0.0-gamma.7":
+  version "1.0.0-gamma.7"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-user-agent-node/download/@aws-sdk/util-user-agent-node-1.0.0-gamma.7.tgz#814204475a95a6e3e4dc78a70d41a1104645b06d"
+  integrity sha1-gUIER1qVpuPk3HinDUGhEEZFsG0=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-utf8-browser@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-utf8-browser/download/@aws-sdk/util-utf8-browser-1.0.0-gamma.6.tgz#bdf5bcc98683eff184d8da00cc101d3e05b44614"
+  integrity sha1-vfW8yYaD7/GE2NoAzBAdPgW0RhQ=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-utf8-browser@^1.0.0-alpha.0", "@aws-sdk/util-utf8-browser@^1.0.0-rc.1":
+  version "1.0.0-rc.3"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-utf8-browser/download/@aws-sdk/util-utf8-browser-1.0.0-rc.3.tgz#ca2f1ee3c3774203675455e6cf6a52256d40849d"
+  integrity sha1-yi8e48N3QgNnVFXmz2pSJW1AhJ0=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-utf8-node@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/util-utf8-node/download/@aws-sdk/util-utf8-node-1.0.0-gamma.6.tgz#94d933ee8b0daf7800ce1f3a2d25e3241ae0e602"
+  integrity sha1-lNkz7osNr3gAzh86LSXjJBrg5gI=
+  dependencies:
+    "@aws-sdk/util-buffer-from" "1.0.0-gamma.6"
+    tslib "^1.8.0"
+
+"@aws-sdk/xml-builder@1.0.0-gamma.6":
+  version "1.0.0-gamma.6"
+  resolved "https://registry.npm.taobao.org/@aws-sdk/xml-builder/download/@aws-sdk/xml-builder-1.0.0-gamma.6.tgz#156522929155611bd9fdbd479a791f43437a125f"
+  integrity sha1-FWUikpFVYRvZ/b1HmnkfQ0N6El8=
+  dependencies:
+    tslib "^1.8.0"
+
 "@babel/code-frame@7.10.4", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.5.5":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
@@ -970,7 +2256,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.3", "@babel/runtime@^7.12.1", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.12.1", "@babel/runtime@^7.9.2":
   version "7.12.5"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.12.5.tgz?cache=0&sync_timestamp=1604441258461&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha1-QQ5+SHRB4bNgwpvnFdhw2bmFiC4=
@@ -1048,6 +2334,21 @@
     lodash "^4.17.19"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
+
+"@fluentui/react-component-event-listener@~0.51.1":
+  version "0.51.2"
+  resolved "https://registry.npm.taobao.org/@fluentui/react-component-event-listener/download/@fluentui/react-component-event-listener-0.51.2.tgz#bb403c96acfa9fb4ea338f3f2bf66e672085a4c7"
+  integrity sha1-u0A8lqz6n7TqM48/K/ZuZyCFpMc=
+  dependencies:
+    "@babel/runtime" "^7.10.4"
+
+"@fluentui/react-component-ref@~0.51.1":
+  version "0.51.2"
+  resolved "https://registry.npm.taobao.org/@fluentui/react-component-ref/download/@fluentui/react-component-ref-0.51.2.tgz#17d27ce4da914e162a9ac4f3f4a7810d1ade658a"
+  integrity sha1-F9J85NqRThYqmsTz9KeBDRreZYo=
+  dependencies:
+    "@babel/runtime" "^7.10.4"
+    react-is "^16.6.3"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1319,6 +2620,11 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
+"@popperjs/core@^2.5.2":
+  version "2.5.4"
+  resolved "https://registry.npm.taobao.org/@popperjs/core/download/@popperjs/core-2.5.4.tgz#de25b5da9f727985a3757fd59b5d028aba75841a"
+  integrity sha1-3iW12p9yeYWjdX/Vm10Cirp1hBo=
+
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-7.1.3.tgz#80de384edfbd7bfc9101164910f86078151a3eca"
@@ -1347,10 +2653,18 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sinonjs/commons@^1.7.0":
+"@semantic-ui-react/event-stack@^3.1.0":
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/@semantic-ui-react/event-stack/download/@semantic-ui-react/event-stack-3.1.1.tgz#3263d17511db81a743167fe45281a24b3eb6b3c8"
+  integrity sha1-MmPRdRHbgadDFn/kUoGiSz62s8g=
+  dependencies:
+    exenv "^1.2.2"
+    prop-types "^15.6.2"
+
+"@sinonjs/commons@^1", "@sinonjs/commons@^1.3.0", "@sinonjs/commons@^1.4.0", "@sinonjs/commons@^1.7.0":
   version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
-  integrity sha512-892K+kWUUi3cl+LlqEWIDrhvLgdL79tECi8JZUyq6IviKy/DNhuzCRlbHUjxK89f4ypPMMaFnFuR9Ie6DoIMsw==
+  resolved "https://registry.npm.taobao.org/@sinonjs/commons/download/@sinonjs/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
+  integrity sha1-598A+YogMyT23HzGBsrZ1KirIhc=
   dependencies:
     type-detect "4.0.8"
 
@@ -1360,6 +2674,28 @@
   integrity sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==
   dependencies:
     "@sinonjs/commons" "^1.7.0"
+
+"@sinonjs/formatio@^3.2.1":
+  version "3.2.2"
+  resolved "https://registry.npm.taobao.org/@sinonjs/formatio/download/@sinonjs/formatio-3.2.2.tgz#771c60dfa75ea7f2d68e3b94c7e888a78781372c"
+  integrity sha1-dxxg36dep/LWjjuUx+iIp4eBNyw=
+  dependencies:
+    "@sinonjs/commons" "^1"
+    "@sinonjs/samsam" "^3.1.0"
+
+"@sinonjs/samsam@^3.1.0", "@sinonjs/samsam@^3.3.3":
+  version "3.3.3"
+  resolved "https://registry.npm.taobao.org/@sinonjs/samsam/download/@sinonjs/samsam-3.3.3.tgz#46682efd9967b259b81136b9f120fd54585feb4a"
+  integrity sha1-Rmgu/Zlnslm4ETa58SD9VFhf60o=
+  dependencies:
+    "@sinonjs/commons" "^1.3.0"
+    array-from "^2.1.1"
+    lodash "^4.17.15"
+
+"@sinonjs/text-encoding@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.npm.taobao.org/@sinonjs/text-encoding/download/@sinonjs/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
+  integrity sha1-jaXGUwkVZT86Hzj9XxAdjD+AecU=
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.1"
@@ -1557,6 +2893,11 @@
   integrity sha512-Pzh9O3sTK8V6I1olsXpCfj2k/ygO2q1X0vhhnDrEQyYLHZesWz+zMZMVcwXLCYf0U36EtmyYaFGPfXlTtDHe3A==
   dependencies:
     "@babel/types" "^7.3.0"
+
+"@types/cookie@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.npm.taobao.org/@types/cookie/download/@types/cookie-0.3.3.tgz#85bc74ba782fb7aa3a514d11767832b0e3bc6803"
+  integrity sha1-hbx0ungvt6o6UU0RdngysOO8aAM=
 
 "@types/eslint@^7.2.0":
   version "7.2.4"
@@ -2081,6 +3422,17 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+amazon-cognito-identity-js@^4.5.3:
+  version "4.5.3"
+  resolved "https://registry.npm.taobao.org/amazon-cognito-identity-js/download/amazon-cognito-identity-js-4.5.3.tgz#1e7fb6bd2a7b7bf43addf428be80e2ec2f14fbfb"
+  integrity sha1-Hn+2vSp7e/Q63fQovoDi7C8U+/s=
+  dependencies:
+    buffer "4.9.1"
+    crypto-js "^3.3.0"
+    fast-base64-decode "^1.0.0"
+    isomorphic-unfetch "^3.0.0"
+    js-cookie "^2.2.1"
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -2197,6 +3549,11 @@ array-flatten@^2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
   integrity sha512-hNfzcOV8W4NdualtqBFPyVO+54DSJuZGY9qT4pRroB6S9e3iiido2ISIC5h9R2sPJ8H3FHCIiEnsv1lPXO3KtQ==
+
+array-from@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npm.taobao.org/array-from/download/array-from-2.1.1.tgz#cfe9d8c26628b9dc5aecc62a9f5d8f1f352c1195"
+  integrity sha1-z+nYwmYoudxa7MYqn12PHzUsEZU=
 
 array-includes@^3.1.1:
   version "3.1.1"
@@ -2346,6 +3703,24 @@ autoprefixer@^9.6.1:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
+aws-amplify@^3.3.7:
+  version "3.3.7"
+  resolved "https://registry.npm.taobao.org/aws-amplify/download/aws-amplify-3.3.7.tgz#2d8bbbb3b160e7521b6a8c34ee8a54f7ea9e2697"
+  integrity sha1-LYu7s7Fg51Ibaow07opU9+qeJpc=
+  dependencies:
+    "@aws-amplify/analytics" "^3.3.10"
+    "@aws-amplify/api" "^3.2.10"
+    "@aws-amplify/auth" "^3.4.10"
+    "@aws-amplify/cache" "^3.1.35"
+    "@aws-amplify/core" "^3.8.2"
+    "@aws-amplify/datastore" "^2.7.2"
+    "@aws-amplify/interactions" "^3.3.10"
+    "@aws-amplify/predictions" "^3.2.10"
+    "@aws-amplify/pubsub" "^3.2.8"
+    "@aws-amplify/storage" "^3.3.10"
+    "@aws-amplify/ui" "^2.0.2"
+    "@aws-amplify/xr" "^2.2.10"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -2360,6 +3735,14 @@ axe-core@^3.5.4:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.5.5.tgz#84315073b53fa3c0c51676c588d59da09a192227"
   integrity sha512-5P0QZ6J5xGikH780pghEdbEKijCTrruK9KxtPZCFWUpef0f6GipO+xEZ5GKCb020mmqgbiNO6TcA55CriL784Q==
+
+axios@0.19.0:
+  version "0.19.0"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.19.0.tgz?cache=0&sync_timestamp=1603474186088&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
+  integrity sha1-jgm/89kSLhM/e4EByPvdAO09Krg=
+  dependencies:
+    follow-redirects "1.5.10"
+    is-buffer "^2.0.2"
 
 axobject-query@^2.1.2:
   version "2.2.0"
@@ -2534,10 +3917,10 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
-base64-js@^1.0.2:
+base64-js@^1.0.2, base64-js@^1.3.1:
   version "1.3.1"
-  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
-  integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
+  resolved "https://registry.npm.taobao.org/base64-js/download/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
+  integrity sha1-WOzoy3XdB+ce0IxzarxfrE2/jfE=
 
 base@^0.11.1:
   version "0.11.2"
@@ -2773,10 +4156,28 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buffer-from@^1.0.0:
+buffer-alloc-unsafe@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/buffer-alloc-unsafe/download/buffer-alloc-unsafe-1.1.0.tgz#bd7dc26ae2972d0eda253be061dba992349c19f0"
+  integrity sha1-vX3CauKXLQ7aJTvgYdupkjScGfA=
+
+buffer-alloc@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/buffer-alloc/download/buffer-alloc-1.2.0.tgz#890dd90d923a873e08e10e5fd51a57e5b7cce0ec"
+  integrity sha1-iQ3ZDZI6hz4I4Q5f1RpX5bfM4Ow=
+  dependencies:
+    buffer-alloc-unsafe "^1.1.0"
+    buffer-fill "^1.0.0"
+
+buffer-fill@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/buffer-fill/download/buffer-fill-1.0.0.tgz#f8f78b76789888ef39f205cd637f68e702122b2c"
+  integrity sha1-+PeLdniYiO858gXNY39o5wISKyw=
+
+buffer-from@^1.0.0, buffer-from@^1.1.1:
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  resolved "https://registry.npm.taobao.org/buffer-from/download/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
+  integrity sha1-MnE7wCj3XAL9txDXx7zsHyxgcO8=
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -2788,6 +4189,15 @@ buffer-xor@^1.0.3:
   resolved "https://registry.yarnpkg.com/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
   integrity sha1-JuYe0UIvtw3ULm42cp7VHYVf6Nk=
 
+buffer@4.9.1:
+  version "4.9.1"
+  resolved "https://registry.npm.taobao.org/buffer/download/buffer-4.9.1.tgz?cache=0&sync_timestamp=1604525331239&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbuffer%2Fdownload%2Fbuffer-4.9.1.tgz#6d1bb601b07a4efced97094132093027c95bc298"
+  integrity sha1-bRu2AbB6TvztlwlBMgkwJ8lbwpg=
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
+    isarray "^1.0.0"
+
 buffer@^4.3.0:
   version "4.9.2"
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.2.tgz#230ead344002988644841ab0244af8c44bbe3ef8"
@@ -2796,6 +4206,14 @@ buffer@^4.3.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
     isarray "^1.0.0"
+
+buffer@^5.4.3:
+  version "5.7.1"
+  resolved "https://registry.npm.taobao.org/buffer/download/buffer-5.7.1.tgz?cache=0&sync_timestamp=1604525331239&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbuffer%2Fdownload%2Fbuffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0"
+  integrity sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA=
+  dependencies:
+    base64-js "^1.3.1"
+    ieee754 "^1.1.13"
 
 builtin-modules@^3.1.0:
   version "3.1.0"
@@ -3136,6 +4554,11 @@ clone-deep@^4.0.1:
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
 
+clsx@^1.0.4, clsx@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/clsx/download/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha1-mLMTT5q73yOyZjSRrOE8XAOnMYg=
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -3341,6 +4764,11 @@ cookie@0.4.0:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
 
+cookie@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.npm.taobao.org/cookie/download/cookie-0.4.1.tgz#afd713fe26ebd21ba95ceb61f9a8116e50a537d1"
+  integrity sha1-r9cT/ibr0hupXOth+agRblClN9E=
+
 copy-concurrently@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/copy-concurrently/-/copy-concurrently-1.0.5.tgz#92297398cae34937fcafd6ec8139c18051f0b5e0"
@@ -3474,6 +4902,11 @@ crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
     randomfill "^1.0.3"
+
+crypto-js@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.npm.taobao.org/crypto-js/download/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
+  integrity sha1-hG3RzOL2iqz6FWyFePkmpgm3l2s=
 
 crypto-random-string@^1.0.0:
   version "1.0.0"
@@ -3756,6 +5189,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -3913,6 +5353,11 @@ diff-sequences@^26.6.2:
   resolved "https://registry.npm.taobao.org/diff-sequences/download/diff-sequences-26.6.2.tgz?cache=0&sync_timestamp=1604319864127&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdiff-sequences%2Fdownload%2Fdiff-sequences-26.6.2.tgz#48ba99157de1923412eed41db6b6d4aa9ca7c0b1"
   integrity sha1-SLqZFX3hkjQS7tQdtrbUqpynwLE=
 
+diff@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.npm.taobao.org/diff/download/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
+  integrity sha1-gAwN0eCov7yVg1wgKtIg/jF+WhI=
+
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -3921,6 +5366,11 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+dijkstrajs@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/dijkstrajs/download/dijkstrajs-1.0.1.tgz#d3cd81221e3ea40742cfcde556d4e99e98ddc71b"
+  integrity sha1-082BIh4+pAdCz83lVtTpnpjdxxs=
 
 dir-glob@^3.0.1:
   version "3.0.1"
@@ -4561,10 +6011,10 @@ eventemitter3@^4.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
-events@^3.0.0:
+events@^3.0.0, events@^3.1.0:
   version "3.2.0"
-  resolved "https://registry.yarnpkg.com/events/-/events-3.2.0.tgz#93b87c18f8efcd4202a461aec4dfc0556b639379"
-  integrity sha512-/46HWwbfCX2xTawVfkKLGxMifJYQBWMwY1mjywRtb4c9x8l5NP3KoJtnIOiL1hfdRkIuYhETxQlo62IF8tcnlg==
+  resolved "https://registry.npm.taobao.org/events/download/events-3.2.0.tgz#93b87c18f8efcd4202a461aec4dfc0556b639379"
+  integrity sha1-k7h8GPjvzUICpGGuxN/AVWtjk3k=
 
 eventsource@^1.0.7:
   version "1.0.7"
@@ -4613,6 +6063,11 @@ execa@^4.0.0:
     onetime "^5.1.0"
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
+
+exenv@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.npm.taobao.org/exenv/download/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
 exit@^0.1.2:
   version "0.1.2"
@@ -4740,6 +6195,11 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
+fast-base64-decode@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/fast-base64-decode/download/fast-base64-decode-1.0.0.tgz#b434a0dd7d92b12b43f26819300d2dafb83ee418"
+  integrity sha1-tDSg3X2SsStD8mgZMA0tr7g+5Bg=
+
 fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -4766,6 +6226,11 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fast-xml-parser@^3.16.0:
+  version "3.17.4"
+  resolved "https://registry.npm.taobao.org/fast-xml-parser/download/fast-xml-parser-3.17.4.tgz#d668495fb3e4bbcf7970f3c24ac0019d82e76477"
+  integrity sha1-1mhJX7Pku895cPPCSsABnYLnZHc=
 
 fastq@^1.6.0:
   version "1.8.0"
@@ -4928,6 +6393,13 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
+  dependencies:
+    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.13.0"
@@ -5210,6 +6682,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
 
+graphql@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.npm.taobao.org/graphql/download/graphql-14.0.0.tgz?cache=0&sync_timestamp=1603897033602&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraphql%2Fdownload%2Fgraphql-14.0.0.tgz#4ee771c5266d08cb75df2d3ac41e8dd51ce3d599"
+  integrity sha1-TudxxSZtCMt13y06xB6N1Rzj1Zk=
+  dependencies:
+    iterall "^1.2.2"
+
 growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
@@ -5326,6 +6805,18 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
+history@^4.9.0:
+  version "4.10.1"
+  resolved "https://registry.npm.taobao.org/history/download/history-4.10.1.tgz#33371a65e3a83b267434e2b3f3b1b4c58aad4cf3"
+  integrity sha1-MzcaZeOoOyZ0NOKz87G0xYqtTPM=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    loose-envify "^1.2.0"
+    resolve-pathname "^3.0.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
+    value-equal "^1.0.1"
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -5334,6 +6825,13 @@ hmac-drbg@^1.0.0:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
+
+hoist-non-react-statics@^3.1.0:
+  version "3.3.2"
+  resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhoist-non-react-statics%2Fdownload%2Fhoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
+  dependencies:
+    react-is "^16.7.0"
 
 hoopy@^0.1.4:
   version "0.1.4"
@@ -5521,12 +7019,22 @@ icss-utils@^4.0.0, icss-utils@^4.1.1:
   dependencies:
     postcss "^7.0.14"
 
+idb@5.0.6:
+  version "5.0.6"
+  resolved "https://registry.npm.taobao.org/idb/download/idb-5.0.6.tgz?cache=0&sync_timestamp=1602170610423&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fidb%2Fdownload%2Fidb-5.0.6.tgz#8c94624f5a8a026abe3bef3c7166a5febd1cadc1"
+  integrity sha1-jJRiT1qKAmq+O+88cWal/r0crcE=
+
 identity-obj-proxy@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz#94d2bda96084453ef36fbc5aaec37e0f79f1fc14"
   integrity sha1-lNK9qWCERT7zb7xarsN+D3nx/BQ=
   dependencies:
     harmony-reflect "^1.4.6"
+
+ieee754@^1.1.13:
+  version "1.2.1"
+  resolved "https://registry.npm.taobao.org/ieee754/download/ieee754-1.2.1.tgz?cache=0&sync_timestamp=1603838702791&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fieee754%2Fdownload%2Fieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
+  integrity sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=
 
 ieee754@^1.1.4:
   version "1.1.13"
@@ -5547,6 +7055,11 @@ ignore@^5.1.4:
   version "5.1.8"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
+
+immer@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npm.taobao.org/immer/download/immer-6.0.1.tgz#7af35e35753d9da6bc9123f0cc99f7e8f2e10681"
+  integrity sha1-evNeNXU9naa8kSPwzJn36PLhBoE=
 
 immer@7.0.9:
   version "7.0.9"
@@ -5755,6 +7268,11 @@ is-buffer@^1.0.2, is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+
+is-buffer@^2.0.2:
+  version "2.0.5"
+  resolved "https://registry.npm.taobao.org/is-buffer/download/is-buffer-2.0.5.tgz?cache=0&sync_timestamp=1604429461527&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fis-buffer%2Fdownload%2Fis-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
+  integrity sha1-68JS5ADSL/jXf6CYiIIaJKZYwZE=
 
 is-callable@^1.1.4, is-callable@^1.2.2:
   version "1.2.2"
@@ -6021,10 +7539,20 @@ is-wsl@^2.1.1, is-wsl@^2.2.0:
   dependencies:
     is-docker "^2.0.0"
 
+isarray@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+
+isarray@^2.0.1:
+  version "2.0.5"
+  resolved "https://registry.npm.taobao.org/isarray/download/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
+  integrity sha1-ivHkwSISRMxiRZ+vOJQNTmRKVyM=
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -6042,6 +7570,14 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+isomorphic-unfetch@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/isomorphic-unfetch/download/isomorphic-unfetch-3.1.0.tgz#87341d5f4f7b63843d468438128cb087b7c3e98f"
+  integrity sha1-hzQdX097Y4Q9RoQ4Eoywh7fD6Y8=
+  dependencies:
+    node-fetch "^2.6.1"
+    unfetch "^4.2.0"
 
 isstream@~0.1.2:
   version "0.1.2"
@@ -6088,6 +7624,11 @@ istanbul-reports@^3.0.2:
   dependencies:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
+
+iterall@^1.2.2:
+  version "1.3.0"
+  resolved "https://registry.npm.taobao.org/iterall/download/iterall-1.3.0.tgz#afcb08492e2915cbd8a0884eb93a8c94d0d72fea"
+  integrity sha1-r8sISS4pFcvYoIhOuTqMlNDXL+o=
 
 jest-changed-files@^26.6.1:
   version "26.6.1"
@@ -6533,6 +8074,11 @@ jest@26.6.0:
     import-local "^3.0.2"
     jest-cli "^26.6.0"
 
+js-cookie@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/js-cookie/download/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha1-aeEG3F1YBolFYpAqpbrsN0Tpsrg=
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -6683,6 +8229,16 @@ jsx-ast-utils@^2.4.1:
   dependencies:
     array-includes "^3.1.1"
     object.assign "^4.1.1"
+
+just-extend@^4.0.2:
+  version "4.1.1"
+  resolved "https://registry.npm.taobao.org/just-extend/download/just-extend-4.1.1.tgz#158f1fdb01f128c411dc8b286a7b4837b3545282"
+  integrity sha1-FY8f2wHxKMQR3IsoantIN7NUUoI=
+
+keyboard-key@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/keyboard-key/download/keyboard-key-1.1.0.tgz#6f2e8e37fa11475bb1f1d65d5174f1b35653f5b7"
+  integrity sha1-by6ON/oRR1ux8dZdUXTxs1ZT9bc=
 
 killable@^1.0.1:
   version "1.0.1"
@@ -6854,10 +8410,25 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.npm.taobao.org/lodash-es/download/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
+  integrity sha1-Ib2Wg5NUQS8j16EDQOXqxu5FXXg=
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.npm.taobao.org/lodash.debounce/download/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npm.taobao.org/lodash.isequal/download/lodash.isequal-4.5.0.tgz?cache=0&sync_timestamp=1598869886615&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash.isequal%2Fdownload%2Flodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -6884,6 +8455,11 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npm.taobao.org/lodash.throttle/download/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
+
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
@@ -6899,7 +8475,19 @@ loglevel@^1.6.8:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.7.0.tgz#728166855a740d59d38db01cf46f042caa041bb0"
   integrity sha512-i2sY04nal5jDcagM3FMfG++T69GEEM8CYuOfeOIvmXzOIcwE9a/CJPR0MFM97pYMj/u10lzz7/zd7+qwhrBTqQ==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+lolex@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npm.taobao.org/lolex/download/lolex-4.2.0.tgz#ddbd7f6213ca1ea5826901ab1222b65d714b3cd7"
+  integrity sha1-3b1/YhPKHqWCaQGrEiK2XXFLPNc=
+
+lolex@^5.0.1:
+  version "5.1.2"
+  resolved "https://registry.npm.taobao.org/lolex/download/lolex-5.1.2.tgz#953694d098ce7c07bc5ed6d0e42bc6c0c6d5a367"
+  integrity sha1-lTaU0JjOfAe8XtbQ5CvGwMbVo2c=
+  dependencies:
+    "@sinonjs/commons" "^1.7.0"
+
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -7119,6 +8707,14 @@ min-indent@^1.0.0:
   resolved "https://registry.npm.taobao.org/min-indent/download/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
   integrity sha1-pj9oFnOzBXH76LwlaGrnRu76mGk=
 
+mini-create-react-context@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.npm.taobao.org/mini-create-react-context/download/mini-create-react-context-0.4.1.tgz?cache=0&sync_timestamp=1603392882746&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmini-create-react-context%2Fdownload%2Fmini-create-react-context-0.4.1.tgz#072171561bfdc922da08a60c2197a497cc2d1d5e"
+  integrity sha1-ByFxVhv9ySLaCKYMIZekl8wtHV4=
+  dependencies:
+    "@babel/runtime" "^7.12.1"
+    tiny-warning "^1.0.3"
+
 mini-css-extract-plugin@0.11.3:
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-0.11.3.tgz#15b0910a7f32e62ffde4a7430cfefbd700724ea6"
@@ -7335,6 +8931,17 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
+nise@^1.5.2:
+  version "1.5.3"
+  resolved "https://registry.npm.taobao.org/nise/download/nise-1.5.3.tgz#9d2cfe37d44f57317766c6e9408a359c5d3ac1f7"
+  integrity sha1-nSz+N9RPVzF3ZsbpQIo1nF06wfc=
+  dependencies:
+    "@sinonjs/formatio" "^3.2.1"
+    "@sinonjs/text-encoding" "^0.7.1"
+    just-extend "^4.0.2"
+    lolex "^5.0.1"
+    path-to-regexp "^1.7.0"
+
 no-case@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-3.0.3.tgz#c21b434c1ffe48b39087e86cfb4d2582e9df18f8"
@@ -7342,6 +8949,11 @@ no-case@^3.0.3:
   dependencies:
     lower-case "^2.0.1"
     tslib "^1.10.0"
+
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.npm.taobao.org/node-fetch/download/node-fetch-2.6.1.tgz?cache=0&sync_timestamp=1599311968037&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-fetch%2Fdownload%2Fnode-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha1-BFvTI2Mfdu0uK1VXM5RBa2OaAFI=
 
 node-forge@^0.10.0:
   version "0.10.0"
@@ -7751,6 +9363,11 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+paho-mqtt@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/paho-mqtt/download/paho-mqtt-1.1.0.tgz#8c10e29eb162e966fb15188d965c3dce505de9d9"
+  integrity sha1-jBDinrFi6Wb7FRiNllw9zlBd6dk=
+
 pako@~1.0.5:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
@@ -7889,6 +9506,13 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+path-to-regexp@^1.7.0:
+  version "1.8.0"
+  resolved "https://registry.npm.taobao.org/path-to-regexp/download/path-to-regexp-1.8.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpath-to-regexp%2Fdownload%2Fpath-to-regexp-1.8.0.tgz#887b3ba9d84393e87a0a0b9f4cb756198b53548a"
+  integrity sha1-iHs7qdhDk+h6CgufTLdWGYtTVIo=
+  dependencies:
+    isarray "0.0.1"
+
 path-type@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
@@ -7978,6 +9602,11 @@ pkg-up@3.1.0:
   integrity sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
   dependencies:
     find-up "^3.0.0"
+
+pngjs@^3.3.0:
+  version "3.4.0"
+  resolved "https://registry.npm.taobao.org/pngjs/download/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
+  integrity sha1-mcp9clll+2VYFOr2XzjxK72/VV8=
 
 pnp-webpack-plugin@1.6.4:
   version "1.6.4"
@@ -8755,10 +10384,10 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.7.2:
+prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
-  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  resolved "https://registry.npm.taobao.org/prop-types/download/prop-types-15.7.2.tgz?cache=0&sync_timestamp=1603892604166&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fprop-types%2Fdownload%2Fprop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
   dependencies:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
@@ -8838,6 +10467,19 @@ q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
+
+qrcode@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.npm.taobao.org/qrcode/download/qrcode-1.4.4.tgz#f0c43568a7e7510a55efc3b88d9602f71963ea83"
+  integrity sha1-8MQ1aKfnUQpV78O4jZYC9xlj6oM=
+  dependencies:
+    buffer "^5.4.3"
+    buffer-alloc "^1.2.0"
+    buffer-from "^1.1.1"
+    dijkstrajs "^1.0.1"
+    isarray "^2.0.1"
+    pngjs "^3.3.0"
+    yargs "^13.2.4"
 
 qs@6.7.0:
   version "6.7.0"
@@ -8965,7 +10607,25 @@ react-error-overlay@^6.0.8:
   resolved "https://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"
   integrity sha1-R07RHQT8a9o69kNEfYXpEn7Wtd4=
 
-react-is@^16.8.1:
+react-fast-compare@^3.0.1:
+  version "3.2.0"
+  resolved "https://registry.npm.taobao.org/react-fast-compare/download/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
+  integrity sha1-ZBqdqBtqYyDycOiXJPtFoLOeQ7s=
+
+react-image-gallery@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npm.taobao.org/react-image-gallery/download/react-image-gallery-1.0.8.tgz#a628d2500b9a0a97854b02f21588f3d14febcda2"
+  integrity sha1-pijSUAuaCpeFSwLyFYjz0U/rzaI=
+  dependencies:
+    clsx "^1.0.4"
+    lodash.debounce "^4.0.8"
+    lodash.isequal "^4.5.0"
+    lodash.throttle "^4.1.1"
+    prop-types "^15.5.8"
+    react-swipeable "^5.2.0"
+    resize-observer-polyfill "^1.5.0"
+
+react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -8975,10 +10635,54 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
+react-native-get-random-values@^1.4.0:
+  version "1.5.0"
+  resolved "https://registry.npm.taobao.org/react-native-get-random-values/download/react-native-get-random-values-1.5.0.tgz#91cda18f0e66e3d9d7660ba80c61c914030c1e05"
+  integrity sha1-kc2hjw5m49nXZguoDGHJFAMMHgU=
+  dependencies:
+    fast-base64-decode "^1.0.0"
+
+react-popper@^2.2.3:
+  version "2.2.4"
+  resolved "https://registry.npm.taobao.org/react-popper/download/react-popper-2.2.4.tgz#d2ad3d2474ac9f1abf93df3099d408e5aa6a2e22"
+  integrity sha1-0q09JHSsnxq/k98wmdQI5apqLiI=
+  dependencies:
+    react-fast-compare "^3.0.1"
+    warning "^4.0.2"
+
 react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
+
+react-router-dom@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npm.taobao.org/react-router-dom/download/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
+  integrity sha1-nmWk0MReEyieZsexfH4XXQ6hVmI=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    history "^4.9.0"
+    loose-envify "^1.3.1"
+    prop-types "^15.6.2"
+    react-router "5.2.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
+
+react-router@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npm.taobao.org/react-router/download/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"
+  integrity sha1-Qk51ZByodH+/duXsyml4GqN+opM=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    history "^4.9.0"
+    hoist-non-react-statics "^3.1.0"
+    loose-envify "^1.3.1"
+    mini-create-react-context "^0.4.0"
+    path-to-regexp "^1.7.0"
+    prop-types "^15.6.2"
+    react-is "^16.6.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
 
 react-scripts@4.0.0:
   version "4.0.0"
@@ -9044,6 +10748,13 @@ react-scripts@4.0.0:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-swipeable@^5.2.0:
+  version "5.5.1"
+  resolved "https://registry.npm.taobao.org/react-swipeable/download/react-swipeable-5.5.1.tgz#48ae6182deaf62f21d4b87469b60281dbd7c4a76"
+  integrity sha1-SK5hgt6vYvIdS4dGm2AoHb18SnY=
+  dependencies:
+    prop-types "^15.6.2"
 
 react@^17.0.1:
   version "17.0.1"
@@ -9309,6 +11020,11 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
+resize-observer-polyfill@^1.5.0:
+  version "1.5.1"
+  resolved "https://registry.npm.taobao.org/resize-observer-polyfill/download/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
+
 resolve-cwd@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/resolve-cwd/-/resolve-cwd-2.0.0.tgz#00a9f7387556e27038eae232caa372a6a59b665a"
@@ -9337,6 +11053,11 @@ resolve-from@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
+
+resolve-pathname@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/resolve-pathname/download/resolve-pathname-3.0.0.tgz#99d02224d3cf263689becbb393bc560313025dcd"
+  integrity sha1-mdAiJNPPJjaJvsuzk7xWAxMCXc0=
 
 resolve-url-loader@^3.1.2:
   version "3.1.2"
@@ -9618,6 +11339,25 @@ selfsigned@^1.10.7:
   dependencies:
     node-forge "^0.10.0"
 
+semantic-ui-react@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npm.taobao.org/semantic-ui-react/download/semantic-ui-react-2.0.1.tgz#a69aa65001c437ae0b3ed747d1f43ee5b4e88407"
+  integrity sha1-ppqmUAHEN64LPtdH0fQ+5bTohAc=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@fluentui/react-component-event-listener" "~0.51.1"
+    "@fluentui/react-component-ref" "~0.51.1"
+    "@popperjs/core" "^2.5.2"
+    "@semantic-ui-react/event-stack" "^3.1.0"
+    clsx "^1.1.1"
+    keyboard-key "^1.1.0"
+    lodash "^4.17.19"
+    lodash-es "^4.17.15"
+    prop-types "^15.7.2"
+    react-is "^16.8.6"
+    react-popper "^2.2.3"
+    shallowequal "^1.1.0"
+
 "semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
@@ -9749,6 +11489,11 @@ shallow-clone@^3.0.0:
   dependencies:
     kind-of "^6.0.2"
 
+shallowequal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+  integrity sha1-GI1SHelbkIdAT9TctosT3wrk5/g=
+
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
@@ -9802,6 +11547,19 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+sinon@^7.5.0:
+  version "7.5.0"
+  resolved "https://registry.npm.taobao.org/sinon/download/sinon-7.5.0.tgz#e9488ea466070ea908fd44a3d6478fd4923c67ec"
+  integrity sha1-6UiOpGYHDqkI/USj1keP1JI8Z+w=
+  dependencies:
+    "@sinonjs/commons" "^1.4.0"
+    "@sinonjs/formatio" "^3.2.1"
+    "@sinonjs/samsam" "^3.3.3"
+    diff "^3.5.0"
+    lolex "^4.2.0"
+    nise "^1.5.2"
+    supports-color "^5.5.0"
 
 sisteransi@^1.0.4:
   version "1.0.5"
@@ -10259,10 +12017,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-supports-color@^5.3.0:
+supports-color@^5.3.0, supports-color@^5.5.0:
   version "5.5.0"
-  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
-  integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
+  resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
+  integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
   dependencies:
     has-flag "^3.0.0"
 
@@ -10463,6 +12221,16 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-invariant@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/tiny-invariant/download/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
+  integrity sha1-Y0xfjv3CdxS384bDXmdgmR0jCHU=
+
+tiny-warning@^1.0.0, tiny-warning@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/tiny-warning/download/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
+  integrity sha1-lKMNtFPfTGQ9D9VmBg1gqHXYR1Q=
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -10566,10 +12334,15 @@ tsconfig-paths@^3.9.0:
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 
-tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.11.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.14.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
-  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+  resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1602286826065&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
+
+tslib@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.3.tgz?cache=0&sync_timestamp=1602286826065&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
+  integrity sha1-jgdBrEX8DCJuWKF7/D5kubxsphw=
 
 tsutils@^3.17.1:
   version "3.17.1"
@@ -10664,6 +12437,16 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+ulid@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/ulid/download/ulid-2.3.0.tgz#93063522771a9774121a84d126ecd3eb9804071f"
+  integrity sha1-kwY1Incal3QSGoTRJuzT65gEBx8=
+
+unfetch@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npm.taobao.org/unfetch/download/unfetch-4.2.0.tgz#7e21b0ef7d363d8d9af0fb929a5555f6ef97a3be"
+  integrity sha1-fiGw7302PY2a8PuSmlVV9u+Xo74=
+
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
@@ -10727,6 +12510,14 @@ unique-string@^1.0.0:
   integrity sha1-nhBXzKhRq7kzmPizOuGHuZyuwRo=
   dependencies:
     crypto-random-string "^1.0.0"
+
+universal-cookie@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.npm.taobao.org/universal-cookie/download/universal-cookie-4.0.4.tgz#06e8b3625bf9af049569ef97109b4bb226ad798d"
+  integrity sha1-BuizYlv5rwSVae+XEJtLsiateY0=
+  dependencies:
+    "@types/cookie" "^0.3.3"
+    cookie "^0.4.0"
 
 universalify@^0.1.0:
   version "0.1.2"
@@ -10850,15 +12641,20 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.3.2, uuid@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
-  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+uuid@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  integrity sha1-G0r0lV6zB3xQHCOHL8ZROBFYcTE=
 
-uuid@^8.3.0:
+uuid@^3.0.0, uuid@^3.2.1, uuid@^3.3.2, uuid@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
+
+uuid@^8.2.0, uuid@^8.3.0:
   version "8.3.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
-  integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
+  resolved "https://registry.npm.taobao.org/uuid/download/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
+  integrity sha1-K6LmygANpg/OWhlpVKskETHgWjE=
 
 v8-compile-cache@^2.0.3:
   version "2.1.1"
@@ -10881,6 +12677,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+value-equal@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/value-equal/download/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
+  integrity sha1-Hgt5THNMXAyt4XnEN9NW2TGjTWw=
 
 vary@~1.1.2:
   version "1.1.2"
@@ -10926,6 +12727,13 @@ walker@^1.0.7, walker@~1.0.5:
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
+
+warning@^4.0.2:
+  version "4.0.3"
+  resolved "https://registry.npm.taobao.org/warning/download/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha1-Fungd+uKhtavfWSqHgX9hbRnjKM=
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"
@@ -11413,10 +13221,10 @@ yargs-parser@^18.1.2:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs@^13.3.2:
+yargs@^13.2.4, yargs@^13.3.2:
   version "13.3.2"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
-  integrity sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
+  resolved "https://registry.npm.taobao.org/yargs/download/yargs-13.3.2.tgz?cache=0&sync_timestamp=1602805897782&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
+  integrity sha1-rX/+/sGqWVZayRX4Lcyzipwxot0=
   dependencies:
     cliui "^5.0.0"
     find-up "^3.0.0"
@@ -11445,3 +13253,28 @@ yargs@^15.4.1:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
+
+zen-observable-ts@0.8.19:
+  version "0.8.19"
+  resolved "https://registry.npm.taobao.org/zen-observable-ts/download/zen-observable-ts-0.8.19.tgz#c094cd20e83ddb02a11144a6e2a89706946b5694"
+  integrity sha1-wJTNIOg92wKhEUSm4qiXBpRrVpQ=
+  dependencies:
+    tslib "^1.9.3"
+    zen-observable "^0.8.0"
+
+zen-observable@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.npm.taobao.org/zen-observable/download/zen-observable-0.7.1.tgz#f84075c0ee085594d3566e1d6454207f126411b3"
+  integrity sha1-+EB1wO4IVZTTVm4dZFQgfxJkEbM=
+
+zen-observable@^0.8.0:
+  version "0.8.15"
+  resolved "https://registry.npm.taobao.org/zen-observable/download/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
+  integrity sha1-lkFcUS2OP/2SCv04iWBOMLnqrBU=
+
+zen-push@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npm.taobao.org/zen-push/download/zen-push-0.2.1.tgz#ddc33b90f66f9a84237d5f1893970f6be60c3c28"
+  integrity sha1-3cM7kPZvmoQjfV8Yk5cPa+YMPCg=
+  dependencies:
+    zen-observable "^0.7.0"
