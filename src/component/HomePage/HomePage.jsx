@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-import { Gallery } from "./Gallery";
+import { Gallery } from "../Gallery";
 
 import { Storage, API, graphqlOperation } from "aws-amplify";
-import { listPictures } from "../graphql/queries";
+import { listPictures } from "../../graphql/queries";
 
 function HomePage() {
   const [images, setImages] = useState([]);

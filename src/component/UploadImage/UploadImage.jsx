@@ -1,7 +1,8 @@
 import React from "react";
+import * as Styled from "./UploadImage.styled";
 import { Storage, API, graphqlOperation } from "aws-amplify";
-import { createPicture } from "../graphql/mutations";
-import awsExports from "../aws-exports";
+import { createPicture } from "../../graphql/mutations";
+import awsExports from "../../aws-exports";
 
 class UploadImage extends React.Component {
   constructor(props) {
