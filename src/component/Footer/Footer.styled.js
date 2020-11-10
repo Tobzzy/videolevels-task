@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Link = styled.div(() => ({
+export const Footer = styled.div(() => ({
   fontWeight: "bold",
   display: "flex",
   justifyContent: "center",

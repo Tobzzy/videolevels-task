@@ -24,7 +24,6 @@ class UploadImage extends React.Component {
 
   onChange(e) {
     const file = e.target.files[0];
-    console.log(file);
 
     Storage.put(file.name, file, {
       contentType: "image/png",
@@ -41,7 +40,6 @@ class UploadImage extends React.Component {
       };
 
       this.addImageToDB(image);
-      console.log("added completed");
     });
   }
 

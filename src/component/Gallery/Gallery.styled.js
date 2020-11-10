@@ -10,5 +10,6 @@ export const Gallery = styled.title(() => ({
 }));
 
 export const Image = styled.img(() => ({
-  width: "500px",
+  width: "400px",
+  height: "auto",
 }));
