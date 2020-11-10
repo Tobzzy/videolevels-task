@@ -5,7 +5,7 @@ import { AmplifySignOut } from "@aws-amplify/ui-react";
 export const GalleryHeader = () => {
   return (
     <Styled.Header>
-      <h1>Gallery Application</h1>
+      <h2>Gallery Application</h2>
       <Styled.SignOut>
         <AmplifySignOut />
       </Styled.SignOut>

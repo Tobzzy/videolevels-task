@@ -6,8 +6,9 @@ export const Gallery = styled.title(() => ({
   alignItems: "center",
   justifyContent: "center",
   flexWrap: "wrap",
+  width: "100%",
 }));
 
 export const Image = styled.img(() => ({
-  width: "400px",
+  width: "500px",
 }));

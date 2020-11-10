@@ -8,4 +8,5 @@ export const Link = styled.div(() => ({
   backgroundColor: "#9a9a9a",
   height: "60px",
   alignItems: "center",
+  overflow: "hidden",
 }));
