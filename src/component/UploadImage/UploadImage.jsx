@@ -24,7 +24,6 @@ class UploadImage extends React.Component {
 
   onChange(e) {
     const file = e.target.files[0];
-
     Storage.put(file.name, file, {
       contentType: "image/png",
     }).then(() => {
@@ -47,7 +46,11 @@ class UploadImage extends React.Component {
     return (
       <Styled.Upload>
         <h3>Please select an image to upload</h3>
-        <input type="file" onChange={(evt) => this.onChange(evt)} />
+        <input
+          type="file"
+          accept="image/*"
+          onChange={(evt) => this.onChange(evt)}
+        />
       </Styled.Upload>
     );
   }
