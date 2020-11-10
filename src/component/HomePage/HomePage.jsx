@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import * as Styled from "./HomePage.styled";
 import { Gallery } from "../Gallery";
 
 import { Storage, API, graphqlOperation } from "aws-amplify";
@@ -10,13 +10,13 @@ function HomePage() {
 
   const getAllImagesToState = async () => {
     const result = await API.graphql(graphqlOperation(listPictures));
-    console.log(result);
     let imageArray = await buildImageArray(result.data.listPictures.items);
     setImages(imageArray);
   };
 
   useEffect(() => {
     getAllImagesToState();
+    // eslint-disable-next-line
   }, []);
 
   const buildImageArray = async (listPictures) => {
@@ -40,12 +40,12 @@ function HomePage() {
   };
 
   return (
-    <div className="HomePage">
+    <Styled.Home>
       <div>
-        <h1> Image Gallery</h1>
+        <h1>Your Image Gallery</h1>
       </div>
       <Gallery images={images} />
-    </div>
+    </Styled.Home>
   );
 }
 

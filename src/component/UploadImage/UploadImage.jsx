@@ -19,6 +19,7 @@ class UploadImage extends React.Component {
     } catch (error) {
       console.log(error);
     }
+    window.location.reload();
   };
 
   onChange(e) {
@@ -27,33 +28,29 @@ class UploadImage extends React.Component {
 
     Storage.put(file.name, file, {
       contentType: "image/png",
-    })
-      .then(() => {
-        this.setState({ file: URL.createObjectURL(file) });
+    }).then(() => {
+      this.setState({ file: URL.createObjectURL(file) });
 
-        const image = {
-          name: file.name,
-          file: {
-            bucket: awsExports.aws_user_files_s3_bucket,
-            region: awsExports.aws_user_files_s3_bucket_region,
-            key: file.name,
-          },
-        };
+      const image = {
+        name: file.name,
+        file: {
+          bucket: awsExports.aws_user_files_s3_bucket,
+          region: awsExports.aws_user_files_s3_bucket_region,
+          key: file.name,
+        },
+      };
 
-        this.addImageToDB(image);
-        console.log("added completed");
-      })
-      .then(() => {});
+      this.addImageToDB(image);
+      console.log("added completed");
+    });
   }
 
   render() {
     return (
-      <div className="UploadImage">
-        <div>
-          <p>Please select an image to upload</p>
-          <input type="file" onChange={(evt) => this.onChange(evt)} />
-        </div>
-      </div>
+      <Styled.Upload>
+        <h3>Please select an image to upload</h3>
+        <input type="file" onChange={(evt) => this.onChange(evt)} />
+      </Styled.Upload>
     );
   }
 }

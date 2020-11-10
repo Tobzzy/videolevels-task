@@ -4,8 +4,8 @@ export const Header = styled.title(() => ({
   display: "flex",
   justifyContent: "space-between",
   width: "100%",
-  backgroundColor: "#cce8d3",
-  height: "64px",
+  backgroundColor: "#9a9a9a",
+  height: "60px",
   alignItems: "center",
 }));
 

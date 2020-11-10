@@ -1,29 +1,27 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import * as Styled from "./App.styled";
-import { AmplifyAuthenticator } from "@aws-amplify/ui-react";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 import UploadImage from "../UploadImage/UploadImage";
 import { GalleryHeader } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import HomePage from "../HomePage/HomePage";
 function App() {
   return (
-    <AmplifyAuthenticator>
-      <Styled.App>
-        <Styled.Global />
-        <GalleryHeader />
-        <Styled.Main>
+    <Styled.App>
+      <Styled.Global />
+      <GalleryHeader />
+      <Styled.Main>
+        <Route exact path="/">
           <Styled.Content>
-            <Route exact path="/">
-              <UploadImage />
-              <HomePage />
-            </Route>
+            <UploadImage />
+            <HomePage />
           </Styled.Content>
-        </Styled.Main>
-        <Footer />
-      </Styled.App>
-    </AmplifyAuthenticator>
+        </Route>
+      </Styled.Main>
+      <Footer />
+    </Styled.App>
   );
 }
 
-export default App;
+export default withAuthenticator(App);
